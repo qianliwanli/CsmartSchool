@@ -67,6 +67,8 @@
  ![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/101945_43017a93_9645159.png "内建终端打开.png")
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/101951_d21440a1_9645159.png "安装依赖.png")
+
+-  **如提示npm无法识别，请先恶补npm和node.js基础知识：https://www.runoob.com/nodejs/nodejs-npm.html** 
  
 
 - 打开cloudfunctions/sport_cloud/comm/ccmini_config.js文件，配置后台管理员账号和密码
