@@ -65,12 +65,7 @@
 				<text>课程表</text>
 			</view>
 
-			<view class="item" bindtap="url" data-type="wait">
-				<view class="item-circle bg-darkgreen">
-					<image src="../../images/menu/chengji.png"></image>
-				</view>
-				<text>成绩表</text>
-			</view>
+			 
 
 		</view>
 		<!--menu2 END -->
@@ -86,19 +81,9 @@
 				<text>借阅报告</text>
 			</view>
 
-			<view class="item" bindtap="url" data-type="wait">
-				<view class="item-circle bg-blue">
-					<image src="../../images/menu/kaoqin.png"></image>
-				</view>
-				<text>学生考勤</text>
-			</view>
+			 
 
-			<view class="item" bindtap="url" data-type="wait">
-				<view class="item-circle bg-purple">
-					<image src="../../images/menu/huaxiang.png"></image>
-				</view>
-				<text>学生画像</text>
-			</view>
+		 
 
 			<view class="item" bindtap="url" data-url="../news/news_index?cate=8">
 				<view class="item-circle bg-mauve">
@@ -128,19 +113,9 @@
 				<text>问卷调查</text>
 			</view>
 
-			<view class="item" bindtap="url" data-type="wait">
-				<view class="item-circle bg-orange">
-					<image src="../../images/menu/weixiu.png"></image>
-				</view>
-				<text>维修申请</text>
-			</view>
+		 
 
-			<view class="item" bindtap="url" data-type="wait">
-				<view class="item-circle bg-yellow">
-					<image src="../../images/menu/sushe.png"></image>
-				</view>
-				<text>宿舍管理</text>
-			</view>
+		 
 
 		</view>
 		<!--menu4 END -->
