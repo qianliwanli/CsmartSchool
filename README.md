@@ -57,18 +57,7 @@
  
 
 #### 3 云函数及配置
-- 本项目使用到了一个云函数school_cloud 
-
-
-- 在云函数cloudfunctions文件夹下选择云函数school_cloud , 右键选择在终端中打开,然后执行 
-- npm install –product
-
-
- ![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/101945_43017a93_9645159.png "内建终端打开.png")
-
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/101951_d21440a1_9645159.png "安装依赖.png")
-
--  **如提示npm无法识别，请先恶补npm和node.js基础知识：https://www.runoob.com/nodejs/nodejs-npm.html** 
+- 本项目使用到了一个云函数school_cloud   
  
 
 - 打开cloudfunctions/sport_cloud/comm/ccmini_config.js文件，配置后台管理员账号和密码
@@ -76,33 +65,28 @@
  ![输入图片说明](https://images.gitee.com/uploads/images/2021/0911/150146_a9af88e5_9240987.png "设置管理员账号.png")
 
  
+#### 4  上传云函数&指定云环境ID
+
+ ![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/101935_d116bfc6_9645159.png "上传到云.png")
 
 
-#### 4  客户端配置
+#### 5  客户端配置
 - 打开miniprogram/app.js文件，配置环境ID
 
  ![输入图片说明](https://images.gitee.com/uploads/images/2021/0811/232832_6053aae0_9240987.png "客户端配置.png")
 
 
-#### 5  云函数配置
+
+#### 6  云函数配置
 - 在微信开发者工具-》云开发-》云函数-》对指定的函数添加环境变量 
 - [服务端时间时区TZ] =>Asia/Shanghai
 - [函数内存] =>128M   
 - [函数超时时间] => 20秒
  ![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/101840_a213d534_9645159.png "配置云函数.png")
-
+ 
  
 
-#### 6  设置图片域名信任关系
-- 进入小程序 开发管理=》开发设置=》服务器域名 =》downloadFile合法域名	
-- 添加2个域名：
-- 1）你的云存储域名，格式类似：https://1234-test-pi5po-1250248.tcb.qcloud.la
-- 2）微信头像域名：https://thirdwx.qlogo.cn 
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0811/233716_fccfac0e_9240987.png "业务域名.png")
 
-#### 7  上传云函数&指定云环境ID
-
- ![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/101935_d116bfc6_9645159.png "上传到云.png")
 
 ### 至此完全部署配置完毕。
 
