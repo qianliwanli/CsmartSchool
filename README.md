@@ -71,7 +71,7 @@
 
 
 #### 5  客户端配置
-- 打开miniprogram/app.js文件，配置环境ID
+- 打开miniprogram/app.js文件，配置环境 ID
 
  ![输入图片说明](https://images.gitee.com/uploads/images/2021/0811/232832_6053aae0_9240987.png "客户端配置.png")
 
