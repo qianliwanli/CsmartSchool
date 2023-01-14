@@ -1,4 +1,4 @@
-#<h2 align="center" style="margin: 30px 0 30px;font-weight: bold;font-size:40px;">CC微校园小程序</h2>
+<h2 align="center" style="margin: 30px 0 30px;font-weight: bold;font-size:40px;">CC微校园小程序</h2>
 
 ## 项目说明
 - 本小程序包括学校公告,服务通知,校园新闻,校园风光,校园活动,校历,课程表,失物招领,迎新服务,问卷调查,空闲教室,借阅报告,课堂印象等功能模块！
